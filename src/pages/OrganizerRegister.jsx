@@ -78,8 +78,8 @@ const OrganizerRegister = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <a href="/" className="inline-flex items-center space-x-2">
-            <img src="/joyb-logo.png" alt="JoyB" className="w-10 h-10 rounded-lg" />
+          <a href="#/" className="inline-flex items-center space-x-2">
+            <img src={`${import.meta.env.BASE_URL}joyb-logo.png`} alt="JoyB" className="w-10 h-10 rounded-lg" />
             <span className="text-3xl font-black bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">JoyB.VN</span>
           </a>
           <p className="text-gray-500 text-sm mt-2">Đăng ký tài khoản Nhà tổ chức</p>
@@ -176,7 +176,7 @@ const OrganizerRegister = () => {
 
         <div className="mt-4 text-center">
           <p className="text-[11px] text-gray-600">
-            Đã có tài khoản? <a href="/login" className="text-purple-400 hover:underline font-medium">Đăng nhập</a>
+            Đã có tài khoản? <a href="#/login" className="text-purple-400 hover:underline font-medium">Đăng nhập</a>
           </p>
         </div>
       </div>

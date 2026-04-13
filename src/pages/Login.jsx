@@ -95,8 +95,8 @@ const Login = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <a href="/" className="inline-flex items-center space-x-2">
-            <img src="/joyb-logo.png" alt="JoyB" className="w-10 h-10 rounded-lg" />
+          <a href="#/" className="inline-flex items-center space-x-2">
+            <img src={`${import.meta.env.BASE_URL}joyb-logo.png`} alt="JoyB" className="w-10 h-10 rounded-lg" />
             <span className="text-3xl font-black bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">JoyB.VN</span>
           </a>
           <p className="text-gray-500 text-sm mt-2">Nền tảng mua vé sự kiện trực tuyến</p>
@@ -228,7 +228,7 @@ const Login = () => {
         {/* Organizer CTA */}
         <div className="mt-6 bg-[#18181b] border border-[#27272a] rounded-2xl p-5 text-center">
           <p className="text-gray-400 text-xs mb-2">Bạn là nhà tổ chức sự kiện?</p>
-          <a href="/organizer/register" className="inline-flex items-center space-x-2 text-pink-400 hover:text-pink-300 font-bold text-sm transition-colors">
+          <a href="#/organizer/register" className="inline-flex items-center space-x-2 text-pink-400 hover:text-pink-300 font-bold text-sm transition-colors">
             <span>Đăng ký tài khoản Organizer</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </a>

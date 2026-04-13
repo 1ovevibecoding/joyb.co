@@ -217,7 +217,7 @@ const Home = ({ theme, toggleTheme }) => {
             {/* Background Blob for dark mode flair */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-pink-500/10 dark:bg-pink-500/5 blur-3xl rounded-full pointer-events-none"></div>
             <img 
-              src="/hero-illustration.png" 
+              src={`${import.meta.env.BASE_URL}hero-illustration.png`}
               alt="Hero Illustration" 
               className="w-full max-w-lg object-contain rounded-2xl shadow-2xl relative z-10 border border-black/5 dark:border-white/5"
               onError={(e) => {
