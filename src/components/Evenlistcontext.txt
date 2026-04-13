@@ -1,0 +1,66 @@
+  {
+    "id": "EVT001",
+    "ten_show": "Show của Đen - Sài Gòn",
+    "ca_si": "Đen Vâu",
+    "ngay_gio": "2026-05-15T20:00:00",
+    "dia_diem": "Nhà thi đấu Quân khu 7, TP. Hồ Chí Minh",
+    "gia_ve": {
+      "VVIP": 3500000,
+      "VIP": 2000000,
+      "Thuong": 900000
+    },
+    "anh_banner": "https://example.com/images/show-cua-den-sg.jpg"
+  },
+  {
+    "id": "EVT002",
+    "ten_show": "Chân Trời Rực Rỡ",
+    "ca_si": "Hà Anh Tuấn",
+    "ngay_gio": "2026-06-10T19:30:00",
+    "dia_diem": "Cung thể thao Tiên Sơn, Đà Nẵng",
+    "gia_ve": {
+      "VVIP": 5000000,
+      "VIP": 3500000,
+      "Thuong": 1500000
+    },
+    "anh_banner": "https://example.com/images/chan-troi-ruc-ro-dn.jpg"
+  },
+  {
+    "id": "EVT003",
+    "ten_show": "Vũ Trụ Cò Bay - School Tour",
+    "ca_si": "Phương Mỹ Chi",
+    "ngay_gio": "2026-07-22T19:00:00",
+    "dia_diem": "Sân vận động Bách Khoa, Hà Nội",
+    "gia_ve": {
+      "VVIP": 2500000,
+      "VIP": 1500000,
+      "Thuong": 500000
+    },
+    "anh_banner": "https://example.com/images/vu-tru-co-bay-hn.jpg"
+  },
+  {
+    "id": "EVT004",
+    "ten_show": "The Eras Tour - Vietnam Edition",
+    "ca_si": "Taylor Swift",
+    "ngay_gio": "2026-09-05T18:30:00",
+    "dia_diem": "Sân vận động Quốc gia Mỹ Đình, Hà Nội",
+    "gia_ve": {
+      "VVIP": 12000000,
+      "VIP": 8000000,
+      "Thuong": 2500000
+    },
+    "anh_banner": "https://example.com/images/the-eras-tour-vn.jpg"
+  },
+  {
+    "id": "EVT005",
+    "ten_show": "Lofoten Live Concert",
+    "ca_si": "Sơn Tùng M-TP",
+    "ngay_gio": "2026-11-20T20:00:00",
+    "dia_diem": "Sân vận động Thống Nhất, TP. Hồ Chí Minh",
+    "gia_ve": {
+      "VVIP": 6000000,
+      "VIP": 4000000,
+      "Thuong": 1200000
+    },
+    "anh_banner": "https://example.com/images/mtp-live-concert.jpg"
+  }
+]
